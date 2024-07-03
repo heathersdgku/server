@@ -1,0 +1,24 @@
+to install the virtualenv
+
+python3 -m pip install virtualenv
+
+
+to create a new virtualenv
+
+python3 -m venv venv
+
+
+to upgrade
+python3 -m pip install --upgrade pip
+
+
+to activate the virtualenv
+
+mac: 
+source venv/bin/activate
+
+windows
+venv\Scripts\activate
+
+
+py -m pip install flask
