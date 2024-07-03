@@ -21,6 +21,8 @@ def about():
     me = {"name": "Heather"}
     return json.dumps(me)
 
+products = []
+
 @app.post("/api/products")
 def saveProducts():
     product = request.get.json()
